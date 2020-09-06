@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Collection</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.png"/>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+         <div class="navbar-center">
+             <!-- <span class="nav-icon">
+                 <a href="" class="fas fa-bars"></a>
+             </span> -->
+            <a href="/"> <img src="./images/logo.png" alt="Store logo"></a>
+              <div class="cart-btn">
+                  <span class="nav-icon">
+                      <i class="fas fa-cart-plus"> </i>
+                      <div class="cart-items">0</div>
+                  </span>
+              </div>
+         </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Main Section -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Furniture Collection</h1>
+            <a href="#main_section"><button class="banner-btn">Shop Now</button></a>
+        </div>
+    </header>
+
+    <!--End of Main Section -->
+
+    <!-- Products -->
+    <!-- End of Products -->
+
+    <section class="products" id="main_section">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <!-- <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-card"></i>
+                     Add to Bag
+                    </button>
+                </div>
+                <h3>Queen Bad</h3>
+                <h4>$16</h4>
+            </article> -->
+        </div>
+    </section>
+
+    <!-- Cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+               <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- <div class="cart-item">
+                    <img src="./images/product-1.jpeg" alt="Product">
+                    <div>
+                        <h4>Queen Bed</h4>
+                        <h5>$9.000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div> -->
+                <!-- end of cart item -->
+
+            </div>
+              <div class="cart-footer">
+                  <h3>Your Total: $<span class="cart-total">0</span></h3>
+                  <button class="clear-cart banner-btn">Clear Cart</button>
+              </div>
+        </div>
+    </div>
+    <!-- End of Cart -->
+     <footer>
+         <p>Copyright 2020&#169;. All rights reserved.</p>
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
